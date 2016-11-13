@@ -13,34 +13,11 @@
   }
 }
 
-.gradient {
-  background-image: url("../img/assets/color-bg.png"), $brand-gradient;
-  background-size: cover;
-}
-
-
 #site-header {
-  //height: 950px;
-  height: 100vh;
-  background-image: url("../img/assets/pattern-bright.svg");
-  background-attachment: fixed;
-  background-size: 15rem;
-  position: relative;
+
 }
 
 //site footer
 #footer {
-  background-image: url("../img/assets/pattern-bright.svg");
-  background-size: 15rem;
-  padding: $block-padding;
-  padding-bottom: 0;
-  position: relative;
-  & .color-line {
-    height: 5rem;
-    width: 100%;
-    background-color: $primary-color;
-    position: absolute;
-    bottom: 0;
-    z-index: -1;
-  }
+
 }

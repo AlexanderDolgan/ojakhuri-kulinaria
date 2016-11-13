@@ -1,7 +1,7 @@
 {
   "name": "ojakhuri-kulinaria",
   "version": "0.0.0",
-  "description": "watch repair",
+  "description": "kulinaria",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,9 +17,9 @@
   "author": "Alexander Dolgan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AlexanderDolgan/Heritage/issues"
+    "url": "https://github.com/AlexanderDolgan/ojakhuri-kulinaria/issues"
   },
-  "homepage": "https://github.com/AlexanderDolgan/Heritage#readme",
+  "homepage": "https://github.com/AlexanderDolgan/ojakhuri-kulinaria#readme",
   "dependencies": {
     "browser-sync": "^2.16.0",
     "gulp": "^3.9.1",

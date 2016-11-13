@@ -1,10 +1,10 @@
 {
-  "name": "Repassage",
-  "homepage": "https://github.com/AlexanderDolgan/Repassage",
+  "name": "Ojakhuri-kulinaria",
+  "homepage": "https://github.com/AlexanderDolgan/Ojakhuri-kulinaria",
   "authors": [
     "Alexander Dolgan <5704737@gmail.com>"
   ],
-  "description": "repair watch service Repassage",
+  "description": "kulinaria",
   "main": "",
   "moduleType": [],
   "license": "MIT",
