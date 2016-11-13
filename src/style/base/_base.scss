@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+
+
+
+html {
+  font-size: $global-font-size;
+}
+
+body {
+  font-family: $global-font-family;
+  color: $black;
+  line-height: $global-line-height;
+  background-color: $body-background;
+  -webkit-font-smoothing: $font-smooth;
+
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  &:hover,
+  &:active,
+  &:focus {
+    color: darken($primary-color, 15%);
+    text-decoration: underline;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  & > li::before {
+    content: '•';
+    color: $primary-color;
+    padding-right: .5rem;
+  }
+}

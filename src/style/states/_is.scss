@@ -1,0 +1,18 @@
+.is-sub {
+  color: #b3b3b4;
+}
+
+.is-show-flex {
+  display: flex;
+}
+
+.is-hide {
+  display: none;
+}
+
+.is-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
