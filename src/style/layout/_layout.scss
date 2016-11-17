@@ -6,7 +6,6 @@
   padding: 3rem 1rem;
 }
 
-/* Media query */
 @include susy-breakpoint($b-medium) {
   .section-padding {
     padding: $block-padding;
@@ -27,24 +26,6 @@
     height: 1.875rem;
   }
 }
-
-
-.l-adresses {
-  position: relative;
-  &::before {
-    content: '';
-    display: block;
-    width: 100%;
-    background-image: url(../img/top_curve_green.png);
-    background-size: cover;
-    position: absolute;
-    top: -5.55rem;
-    height: 1.875rem;
-    z-index: 999;
-  }
-}
-
-
 
 .l-logo {
   @include container();
@@ -69,7 +50,21 @@
   }
 }
 
-//site footer
+.l-adresses {
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background-image: url(../img/top_curve_green.png);
+    background-size: cover;
+    position: absolute;
+    top: -7.35rem;
+    height: 1.875rem;
+    z-index: 999;
+  }
+}
+
 #footer {
   position: relative;
   padding-top: 3rem;
@@ -86,7 +81,7 @@
     background-image: url(../img/bot_curve.png);
     background-size: cover;
     position: absolute;
-    top: -1.75rem;
+    top: -1.85rem;
     height: 1.875rem;
   }
 }

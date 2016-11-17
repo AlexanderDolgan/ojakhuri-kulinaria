@@ -1,6 +1,5 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  transition: 0.2s;
 }
 
 html {
@@ -29,6 +28,7 @@ a {
   &:focus {
     color: darken($primary-color, 15%);
     text-decoration: underline;
+    transition: 0.2s;
   }
 }
 
