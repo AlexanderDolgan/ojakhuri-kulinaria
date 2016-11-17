@@ -20,7 +20,6 @@ $hamBtn.stop().on('click touchstart', function (evt) {
 
 $(window).scroll(function(){
     var $scrollBodyTop = ($('body').scrollTop());
-    console.log($scrollBodyTop);
     if ($scrollBodyTop) {
         $nav.addClass('fixed-nav');
     }

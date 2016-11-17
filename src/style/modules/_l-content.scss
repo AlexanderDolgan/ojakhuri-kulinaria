@@ -1,0 +1,54 @@
+.l-text__header {
+  text-align: center;
+  padding: 3rem 0 0rem;
+  & h1 {
+    font-size: 3rem;
+  }
+  & img {
+    width: 3.375rem;
+  }
+}
+
+.content-item {
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  justify-content: space-around;
+  padding: 1rem;
+  & .side {
+    align-self: center;
+  }
+  & p {
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+}
+
+@include susy-breakpoint($b-medium) {
+  .l-text__header {
+    text-align: center;
+    padding: 6rem 0 3rem;
+    & h1 {
+      font-size: 4rem;
+    }
+  }
+  .content-item {
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    justify-content: space-around;
+    padding: 1rem 0;
+    & .side {
+      flex-basis: span(4);
+      align-self: center;
+    }
+    & p {
+      font-size: 1.125rem;
+      font-weight: 700;
+    }
+  }
+
+  .content-item:nth-child(even) .side:first-child {
+    order:1;
+  }
+}

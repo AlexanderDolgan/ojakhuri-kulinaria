@@ -14,10 +14,79 @@
 }
 
 #site-header {
+  position: relative;
+  background-color: $primary-color;
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-image: url(../img/top_curve.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -1.75rem;
+    height: 1.875rem;
+  }
+}
 
+
+.l-adresses {
+  position: relative;
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background-image: url(../img/top_curve_green.png);
+    background-size: cover;
+    position: absolute;
+    top: -5.55rem;
+    height: 1.875rem;
+    z-index: 999;
+  }
+}
+
+
+
+.l-logo {
+  @include container();
+}
+
+#site-main {
+  background-color: $secondary-color;
+}
+
+.l-content {
+  position: relative;
+  &::after {
+    content: '';
+    display: block;
+    width: 100%;
+    background-image: url(../img/bot_curve_green.png);
+    background-size: cover;
+    position: absolute;
+    bottom: -1.75rem;
+    height: 1.875rem;
+    z-index: 999;
+  }
 }
 
 //site footer
 #footer {
-
+  position: relative;
+  padding-top: 3rem;
+  background-color: $primary-color;
+  text-align: center;
+  text-decoration: underline;
+  & a {
+    color: $black;
+  }
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    background-image: url(../img/bot_curve.png);
+    background-size: cover;
+    position: absolute;
+    top: -1.75rem;
+    height: 1.875rem;
+  }
 }

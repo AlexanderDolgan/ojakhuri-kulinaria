@@ -1,0 +1,36 @@
+.l-adresses {
+  text-align: center;
+  h1 {
+    margin-top: 3rem;
+  }
+  & p {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  & p::before{
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("../img/assets/point2.png");
+    background-size: .9rem;
+    background-repeat: no-repeat;
+    width: 1.2rem;
+    height: 2.1rem;
+  }
+  & p::after {
+    content: '~';
+    display: block;
+  }
+}
+
+@include susy-breakpoint($b-medium) {
+  .l-adresses {
+    background-image: url("../img/assets/bread_big.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 20rem;
+    h1 {
+      margin-top: 6rem;
+    }
+  }
+}

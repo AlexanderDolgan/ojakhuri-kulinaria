@@ -1,18 +1,16 @@
 @import "util/mixin";
+@import "util/fonts";
 
 //Global
-$global-font-family: 'Playfair Display', serif;
-$sans-serif-font-family: 'Roboto Condensed', sans-serif;
+$global-font-family: 'Circe', sans-serif;
 $global-font-size: 16px;
 $global-line-height: 1.5;
 $font-smooth: antialiased;
 
 //Colors - не поддтягиваются в phpStorm из-за использования map
 $brand-palette: (
-        primary: #65459b,
-        gradient-first: #8365ae,
-        gradient-second: #4e4f98,
-        secondary: #e4a226,
+        primary: #ffe0af,
+        secondary: #afd2c2,
         success: #3adb76,
         warning: #ffae00,
         alert: #ec5840
@@ -30,9 +28,6 @@ $body-background: $white;
 $body-font-color: $black;
 
 @include add-brand-colors;
-
-$brand-gradient: linear-gradient(to right, $gradient-first-color, $gradient-second-color);
-
 
 // Media q breakpoints
 
@@ -52,7 +47,7 @@ $container-width: 75em;
 
 //Typography
 
-$header-font-family: 'Oranienbaum', serif;
+$header-font-family: 'Kazimir', sans-serif;
 $header-font-weight: 100;
 $header-color: $body-font-color;
 $header-lineheight: 1.2;
